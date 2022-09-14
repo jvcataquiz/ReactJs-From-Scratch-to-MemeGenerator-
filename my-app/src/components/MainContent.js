@@ -2,10 +2,10 @@ import React from 'react';
 
 function MainContent(){
     return (
-     <div>
+     <main>
         <h1>Helloooo Again!!!</h1>
         <p>This is a paragraph</p>
-     </div>
+     </main>
     )
     }
 

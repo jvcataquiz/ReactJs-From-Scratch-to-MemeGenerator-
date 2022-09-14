@@ -1,9 +1,9 @@
 import React from 'react';
-
+import '../style.css'
 function Header(){
     return (
-     <nav>
-      <ul>
+     <nav className='nav-bar'>
+      <ul >
         <li>Home</li>
         <li>About</li>
         <li>Contact</li>
