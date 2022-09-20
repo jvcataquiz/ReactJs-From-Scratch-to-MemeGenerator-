@@ -8,19 +8,14 @@ const App = () => {
   return (
     <main>
       <h1 style={titlestyle}>React: Todo List </h1>
-
-
-
       <div className='Todo'>
-
         <div>
           <div className='searchbar'>
             <input id='search' type="text" />
             <button id='add' >Add</button>
-          </div>
+          </div> 
           <Todo />
-          <Todo />
-          <Todo />
+        
         </div>
       </div>
     </main>

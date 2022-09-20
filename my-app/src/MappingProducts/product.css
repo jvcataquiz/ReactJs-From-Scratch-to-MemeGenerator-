@@ -1,0 +1,35 @@
+.Product-main{
+    margin: 0 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.Product{
+    width: 24%;
+    position: relative;
+   
+   
+}
+.Product-Item{
+    text-align: center;
+    border: 2px solid black;
+    position: relative;
+    height: 22rem;
+  
+}
+.Product-Image{
+  height: 12rem;
+  width: 10rem;
+}
+.Product-Item img{
+   width: 100%;
+   margin: 0 50%;
+}
+.Product-Dis {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

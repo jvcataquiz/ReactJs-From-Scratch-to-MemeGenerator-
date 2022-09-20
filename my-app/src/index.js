@@ -1,7 +1,9 @@
 // import React, { useLayoutEffect } from 'react';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+
+import App from './MappingProducts/App';
+// import App from './App';
 
 // import MyInfo  from './components/App';
 // import './index.css';
@@ -10,7 +12,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- <App />
+<App/>
 );
 
 // If you want to start measuring performance in your app, pass a function
